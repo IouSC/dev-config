@@ -17,7 +17,7 @@ Ensure that you have:
 
 ## Installation Instructions
 1. Install patched nerd fonts (Hack).
-   - Download the latest Hack Nerd Font from [ryanoasis nerd-fonts git](https://github.com/ryanoasis/nerd-fonts) $\rightarrow$ [Releases](https://www.youtube.com/watch?v=5-aK2_WwrmM&list=PLeJfAHGvmvyDDOECvt6cWEhZqEXAMKO3g&index=4) $\rightarrow$ - [Hack.zip](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hack.zip).
+   - Download the latest Hack Nerd Font from [ryanoasis nerd-fonts git](https://github.com/ryanoasis/nerd-fonts) $\rightarrow$ [Releases](https://www.youtube.com/watch?v=5-aK2_WwrmM&list=PLeJfAHGvmvyDDOECvt6cWEhZqEXAMKO3g&index=4) $\rightarrow$ [Hack.zip](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hack.zip).
    - Install all Windows compatible `.ttf` files.
 2. Install PowerShell.
    - Install [PowerShell](https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US) from Microsoft Store.
