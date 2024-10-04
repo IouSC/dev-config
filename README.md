@@ -1,6 +1,6 @@
 # PowerShell Installation and Setup on Windows
 
-This document provides step-by-step instructions to install PowerShell on a Windows machine, along with *Iou-Sheng (Danny) Chang*'s setup configurations.
+This document offers a step-by-step guide for installing PowerShell on a Windows machine, along with *Iou-Sheng (Danny) Chang*'s setup configurations.
 
 ## Table of Contents
 - [PowerShell Installation and Setup on Windows](#powershell-installation-and-setup-on-windows)
