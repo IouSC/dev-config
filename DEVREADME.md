@@ -27,17 +27,24 @@ Ensure that you have:
       ```
    - Restart PowerShell and test `conda` and `mamba`.
       ```Powershell
-      pip install uv
+      conda env list
       ```
-3. Update all `pip` packages.
+3. Install `uv`.
+    ```Powershell
+    conda install uv -c conda-forge
+    ```
+   > Install all other necessary packages with `uv` - an extremely fast Python package and project manager.
+   - Install: `uv tool install`
+   - Upgrade: `uv.exe tool upgrade --all`
+4. update conda and its packages.
+    ```Powershell
+    conda update conda
+    conda update --all
+    ```
+5. Update all `pip` packages.
     ```Powershell
     pip list --outdated --format=json | ConvertFrom-Json | ForEach-Object {pip install --upgrade $_.name}
     ```
-4. Install all other necessary packages.
-    > Use `uv` for extremely fast Python package and project managing instead of `pip`.
-5. `uv` commands.
-   - Install: `uv tool install`
-   - Upgrade: `uv.exe tool upgrade --all`
 
 ## References
 [1] .
