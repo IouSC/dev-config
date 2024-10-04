@@ -19,7 +19,25 @@ Ensure that you have:
 - A stable internet connection.
 
 ## Installation Instructions
-1. temp
+1. Install the latest `Miniforge3-Windows-x86_64.exe` from the conda-forge git repo [Releases](https://github.com/conda-forge/miniforge/releases) page.
+2. Add `conda` and `mamba`'s paths to PowerShell's environment.
+   - Open a PowerShell prompt with administrator privilege and run the following command:
+      ```Powershell
+      conda init powershell
+      ```
+   - Restart PowerShell and test `conda` and `mamba`.
+      ```Powershell
+      pip install uv
+      ```
+3. Update all `pip` packages.
+    ```Powershell
+    pip list --outdated --format=json | ConvertFrom-Json | ForEach-Object {pip install --upgrade $_.name}
+    ```
+4. Install all other necessary packages.
+    > Use `uv` for extremely fast Python package and project managing instead of `pip`.
+5. `uv` commands.
+   - Install: `uv tool install`
+   - Upgrade: `uv.exe tool upgrade --all`
 
 ## References
-[1] temp
+[1] .
